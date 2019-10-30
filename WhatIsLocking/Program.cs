@@ -80,9 +80,9 @@ static public class FileUtilities
             toLock = args[0];
         }
         
-        // toLock = "C:\\Users\\ll56150\\AppData\\Roaming\\Corp\\ClientCashManagement\\CCM.config";
-
-        // FileStream streamLocked = new FileStream(toLock, FileMode.Open, FileAccess.Read, FileShare.None);
+        // Lock a file by:
+        // FileStream streamLocked = new FileStream(fullyQualifiedFilename, FileMode.Open, FileAccess.Read, FileShare.None);
+        // Unlock it.
         // streamLocked.Close();
 
         List<Process> isLocked;
